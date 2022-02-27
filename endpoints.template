@@ -1,9 +1,9 @@
 endpoints:
-  proxmox:
+  pbs:
     path: /asset-mirror/releases/download/REPLACE_RELEASE_NAME/
     files:
     - initrd
     - proxmox.iso
     - vmlinuz
-    os: "proxmox"
+    os: "pbs"
     version: "REPLACE_VERSION"
