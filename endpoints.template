@@ -1,8 +1,8 @@
 endpoints:
-  fatdog:
+  opsi:
     path: /asset-mirror/releases/download/REPLACE_RELEASE_NAME/
     files:
-    - vmlinuz
-    - initrd
-    os: "fatdog"
+    - vmlinuz-x64
+    - miniroot-x64.zstd
+    os: "opsi"
     version: "current"

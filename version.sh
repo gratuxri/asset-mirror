@@ -1,4 +1,4 @@
 #!/bin/bash
 set -e
-VERSION=$(curl -s http://distro.ibiblio.org/fatdog/iso/ |awk -F '(Fatdog64-|.iso)' '/Fatdog64-/ {print $4}' | tail -n1)
+VERSION=$(curl -s https://download.uib.de/4.2/boot-cd/ |awk -F '(client-boot-cd_|.iso)' '/client-boot-cd_/ {print $4}' | tail -n1)
 echo "${VERSION}"

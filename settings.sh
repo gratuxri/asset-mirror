@@ -1,4 +1,4 @@
-URL="http://distro.ibiblio.org/fatdog/iso/Fatdog64-REPLACE_VERSION.iso"
+URL="https://download.uib.de/4.2/boot-cd/opsi4.2.0-client-boot-cd_REPLACE_VERSION.iso"
 TYPE=file
 CONTENTS="\
 initrd|initrd
