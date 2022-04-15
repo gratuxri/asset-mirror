@@ -1,0 +1,9 @@
+endpoints:
+  fai:
+    path: /asset-mirror/releases/download/REPLACE_RELEASE_NAME/
+    files:
+    - vmlinuz
+    - initrd.img
+    - filesystem.squashfs
+    os: "fai"
+    version: "REPLACE_VERSION"
