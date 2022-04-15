@@ -23,7 +23,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       with:
-        ref: talos
+        ref: fai
 
     - name: Get SHA of actual branch instead of master
       run: |
